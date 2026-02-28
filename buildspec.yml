@@ -17,6 +17,3 @@ phases:
       - echo Pushing the Docker image...
       - docker push 092671055228.dkr.ecr.ap-south-1.amazonaws.com/brain-app:latest
 
-artifacts:
-  files:
-    - '**/*'
